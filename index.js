@@ -5,5 +5,5 @@ function validateNumber() {
     let outputText = document.getElementById('outputText');
     let cardOutput = document.getElementById('cardOutput');
 
-    
+    cardOutput.classList.add("py-2");
 }
