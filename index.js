@@ -8,13 +8,13 @@ function validateNumber() {
     cardOutput.classList.add("py-2");
 
     if ( inputAngka == "" ) {
-
+        outputText.innerText = "Masukkan angka!";
     } else if ( inputAngka % 2 == 0 ) {
-
+        outputText.innerText = "Genap";
     } else if ( inputAngka % 2 == 1 ) {
-
+        outputText.innerText = "Ganjil";
     } else {
-        
+        outputText.innerText = "Yang anda masukkan bukanlah Angka!";
     }
 
 }
