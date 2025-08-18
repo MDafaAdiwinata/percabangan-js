@@ -1,3 +1,3 @@
 function validateNumber() {
-    
+    event.preventDefault();
 }
