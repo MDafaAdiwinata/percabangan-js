@@ -40,18 +40,18 @@
                             Angka:</label>
 
                         <!-- Input Angka From User -->
-                        <input type="number" id="inputAngka"
+                        <input type="text" id="inputAngka"
                             class="bg-[#000]/50 border border-gray-100/30 text-white/80 text-md rounded-lg focus:ring-gray-100/50 focus:border-gray-100/50 block w-full p-2.5"
                             placeholder="Masukkan Angka Berapapun" required />
                     </div>
                     <div class="mb-5">
-                        <div
+                        <div id="cardOutput"
                             class="bg-[#000]/50 border border-gray-100/30 text-white/80 text-md rounded-lg focus:ring-gray-100/50 focus:border-gray-100/50 block w-full">
                             <!-- Output Text -->
-                            <h1 id="outputText" class="text-center text-xl"></h1>
+                            <h1 id="outputText" class="text-center text-bold text-xl"></h1>
                         </div>
                     </div>
-                    <button type="submit"
+                    <button type="submit" onclick="validateNumber()"
                         class="text-black bg-white hover:cursor-pointer hover:bg-white/80 transition duration-500 font-bold rounded-lg text-lg w-full px-5 py-2.5 text-center">Submit</button>
                 </form>
             </div>
